@@ -1,0 +1,28 @@
+.social-icon{
+  padding: 5px ;
+  transition: 0.4s ease all;
+  background-color: $darkColour;
+  margin: 0 5px;
+  &.facebook:hover{
+    background-color: $facebookColour;
+  }
+
+  &.twitter:hover{
+    background-color: $twitterColour;
+  }
+
+  &.google:hover{
+    background-color: $googlePlusColour;
+  }
+
+  &.youtube:hover{
+    background-color: $youtubeColour;
+  }
+  &.linkedin:hover{
+    background-color: $linkedinColour;
+  }
+
+  &.github:hover{
+    background-color: $githubColour;
+  }
+}

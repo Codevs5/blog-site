@@ -1,0 +1,30 @@
+@import '__variables.scss';
+@import '__social.scss';
+
+.footer{
+  width: 100%;
+  background-color: $darkColour;
+  &-content{
+    display: flex;
+    padding: 5px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &-pages{
+    font-size: 0.7rem;
+    &>a{
+      margin: 5px;
+      transition: 0.2s ease-in all;
+      &:hover{
+        color: $refHoverColour;
+      }
+    }
+  }
+
+  &-social{
+    margin: 0 5px;
+  }
+}
