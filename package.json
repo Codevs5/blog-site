@@ -3,12 +3,13 @@
   "version": "0.0.1",
   "description": "React based blog",
   "scripts": {
-    "start" : "webpack-dev-server --progress --inline --hot --content-base public/"
+    "start": "webpack-dev-server --progress --inline --hot --content-base public/"
   },
   "author": "Joseba Carral <jcarraldc@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.2",
+    "firebase": "^3.7.4",
     "path": "^0.12.7",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
