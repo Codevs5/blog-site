@@ -2,7 +2,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import React from 'react';
 
 //Components
-import {About} from './components/about/About';
+import About from './components/about/About';
 import {Home} from './components/home/Home';
 import {Contact} from './components/contact/Contact';
 import {Error404} from './components/main/Error404';
