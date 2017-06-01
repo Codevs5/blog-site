@@ -1,12 +1,10 @@
 import React, { PropTypes } from 'react';
 
-import '../style/__notFound.scss';
-
 const NotFound = () => (
   <div>
       <h3>404 page not found</h3>
       <p>We are sorry but the page you are looking for does not exist.</p>
-    </div>
+  </div>
 );
 
 export default NotFound;

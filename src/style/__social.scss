@@ -26,4 +26,7 @@
   &.github:hover{
     background-color: $githubColour;
   }
+  &.stack-overflow:hover{
+    background-color: $stackOverflowColour;
+  }
 }

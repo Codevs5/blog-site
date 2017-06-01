@@ -24,6 +24,13 @@ const members = [
       }, {
         name: 'github',
         reference: 'https://www.github.com/jcarral'
+      },
+      {
+        name: 'stack-overflow',
+        reference: 'https://stackoverflow.com/users/6192621/joseba'
+      },{
+        name: 'linkedin',
+        reference: 'https://www.linkedin.com/in/joseba-carral-057018123/'
       }
     ]
   }, {
@@ -45,5 +52,5 @@ const collaborators = [
   'Beatriz Peñas',
   'Ioritz Cabero',
   'Alain Barrero',
-  'Olatz Romero'
+  'Olatz Romeo'
 ];
