@@ -1,10 +1,11 @@
 //Colour's
-$mainColour: #00A0C6;
-$secondaryColour: #808080;
-$darkColour: #414141;
-$refHoverColour: #5856f6;
-$lightColour: #ecf0f1;
+$mainColour: #3F72AF;
+$secondaryColour: #DBE2EF;
+$darkColour: #112D4E;
+$refHoverColour: #DBE2EF;
+$lightColour: #F9F7F7;
 
+$backgroundColour: $darkColour;
 //Social colour
 $twitterColour: #55acee;
 $facebookColour: #3b5998;
@@ -13,3 +14,6 @@ $githubColour: #000000;
 $rssColour: #ff6600;
 $googlePlusColour: #dd4b39;
 $youtubeColour: #bb0000;
+
+//Shadow
+$regularShadow : 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.12);

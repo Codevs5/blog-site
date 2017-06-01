@@ -1,0 +1,41 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] CLI Version:  3.5.0
+[debug] Platform:     darwin
+[debug] Node Version: v6.6.0
+[debug] Time:         Thu Jun 01 2017 16:06:08 GMT+0200 (CEST)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/agoNM3AfSmSFUd4T53YHZOzuFa4i4JbFlB9Hd-uKZns',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jun 01 2017 16:06:08 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/codevs-test-blog  
+ Thu Jun 01 2017 16:06:08 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/codevs-test-blog/tokens  
+ Thu Jun 01 2017 16:06:09 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'codevs-test-blog'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/codevs-test-blog/uploads/-KlYya-zIKqyoelfw6vc?fileCount=12&message=  
+ Thu Jun 01 2017 16:06:12 GMT+0200 (CEST)
+[debug] <<< HTTP RESPONSE 200
+[info] ✔  hosting: public folder uploaded successfully
+[info] ✔  hosting: 12 files uploaded successfully
+[info] i  starting release process (may take several minutes)...
+[debug] >>> HTTP REQUEST POST https://deploy.firebase.com/v1/projects/codevs-test-blog/releases { hosting: 
+   { public: 'public',
+     ignore: [ 'firebase.json', '**/.*', '**/node_modules/**' ],
+     version: '-KlYya-zIKqyoelfw6vc',
+     prefix: '-KlYya-zIKqyoelfw6vc/',
+     manifest: [] } } 
+ Thu Jun 01 2017 16:06:22 GMT+0200 (CEST)
