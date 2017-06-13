@@ -3,14 +3,21 @@
 .header{
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 64px;
+  box-sizing: border-box;
   padding: 0 60px 0 30px;
   background-color: darken($backgroundColour, 5%);
   box-shadow: $regularShadow;
   color: $secondaryColour;
+}
+
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .menu-item{

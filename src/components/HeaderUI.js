@@ -7,7 +7,10 @@ import {capitalize} from '../utils/strings';
 
 const HeaderUI = ({pages, handleNavigate, currentPage}) => (
   <header className="header">
-    {pages.map((page, i) => (<MenuItem page={page} currentPage={page.path === currentPage} handleNavigate={handleNavigate}/>))}
+    <img src='./static/images/logo.png' width="48px" height="48px" />
+    <div className="menu">
+      {pages.map((page, i) => (<MenuItem page={page} currentPage={page.path === currentPage} handleNavigate={handleNavigate}/>))}
+    </div>
   </header>
 );
 

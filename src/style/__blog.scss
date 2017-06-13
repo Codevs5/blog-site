@@ -1,0 +1,42 @@
+@import './__variables.scss';
+
+.blog{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.entries-list{
+  max-width: 980px;
+  margin: auto;
+
+}
+
+.entry-preview{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 10px 0;
+  box-shadow: $regularShadow;
+  padding: 10px;
+  &-title{
+    border-bottom: 1px solid $lightColour;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.blog-header{
+  width: 100vw;
+  height: 20vh;
+  background-color: #83D6DE;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: $regularShadow;
+  color: white;
+  font-size: 2em;
+}
